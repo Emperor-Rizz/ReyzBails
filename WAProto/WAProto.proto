@@ -2617,7 +2617,7 @@ message Message {
         optional Message.HistorySyncMessageAccessStatus messageAccessStatus = 15;
     }
 
-    enum HistorySyncType {
+    message HistorySyncType {
         INITIAL_BOOTSTRAP = 0;
         INITIAL_STATUS_V3 = 1;
         FULL = 2;
